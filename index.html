@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,24 @@
     <link rel="stylesheet" href="/style.css">
     <title> Schere Stein Papier </title>
 </head>
+
 <body>
 
-    <button id="Schere"> Schere </button>
-    <button id="Stein"> Stein </button>
-    <button id="Papier"> Papier </button>
+    <h1> Schere, Stein, Papier?</h1>
+    <section id="buttons">
+        <button id="Schere"> <img src="/bilder/schere.png" width=50px>    </button>
+        <button id="Stein">  <img src="/bilder/stein.png" width="50px">   </button>
+        <button id="Papier"> <img src="/bilder/papiere.png" width="50px"> </button>
+    </section>
 
-    <div id="spielerAuswahl"> Spielerwahl: </div>
-    <div id="computerAuswahl"> Computerwahl: </div>
-    <div id="ergebniss"></div>
-
+    <section id="ausdrücke">
+        <div id="spielerAuswahl"> Spielerwahl: </div>
+        <div id="computerAuswahl"> Computerwahl: </div>
+        <div id="ergebniss"> Ergebniss: </div>
+        <div id="spielstandSpieler"> Dein Spielstand: </div>
+        <div id="spielstandComputer"> Computer Punktzahl: </div>
+        
+    </section>
 
     <script src="/script.js"></script>
 </body>
